@@ -19,7 +19,6 @@ The goal of the project was to create an end to end ETL pipeline using pyspark a
 * Create a hash index on the display_name column within the results table.
 * From the results table, create a view with the column names display_name, city,     questions_id where the accepted_answer_id is not null. Make sure this view goes into   the right schema.
 * Create a materialized view similar to (6). They should have different names.
-* In your Jupyter notebook, state the difference between views and materialized views.
 
 ## Getting Started
 
